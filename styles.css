@@ -11,7 +11,6 @@ figure img {
   background: #eee;
   margin-bottom: -4em;
   display: block;
-
 }
 
 /* 
@@ -44,9 +43,11 @@ figcaption {
   above is then applied to `all` these hover styles, over 0.5 seconds.
 */
 figure:hover figcaption {
-  transform: translateY(0em); 
+  transform: translateY(0.5em);
   /* background: rgba( 255, 255, 255, .78 ); */
   opacity: 1;
-
+  width: 200px;
+  height: 70px; 
+  -webkit-transform: rotate(180deg);
 }
 
