@@ -11,6 +11,7 @@ figure img {
   background: #eee;
   margin-bottom: -4em;
   display: block;
+
 }
 
 /* 
@@ -33,8 +34,8 @@ figcaption {
   transform: translateY(4em);
   background: #fff;
   /* background: rgba( 255, 255, 255, 0 ); */
-  opacity: 0;
-  transition: all .5s;
+  opacity: 1;
+  transition: all 2s;
 }
 
 /* 
@@ -43,7 +44,9 @@ figcaption {
   above is then applied to `all` these hover styles, over 0.5 seconds.
 */
 figure:hover figcaption {
-  transform: translateY(0em);
+  transform: translateY(0em); 
   /* background: rgba( 255, 255, 255, .78 ); */
-  opacity: .78;
+  opacity: 1;
+
 }
+
